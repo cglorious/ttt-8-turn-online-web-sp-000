@@ -52,7 +52,6 @@ def turn(board)
 
   if valid_move?(board, board_index) == true
     move(board, board_index)
-    puts board
   else
     turn(board)
   end
