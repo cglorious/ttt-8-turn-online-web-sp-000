@@ -14,8 +14,7 @@ board = []
 index = 0
 move = index - 1
 
-def valid_move?(board, index)
-
+def valid_move?(board, move)
   if position_taken?(board, move) == true
     false
   else position_taken?(board, move) == false
