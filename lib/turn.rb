@@ -10,7 +10,7 @@ end
 
 #valid_move?
 
-def valid_move?(board, input)
+def valid_move?(board, index)
   board = []
   index = 0
   move = index - 1
