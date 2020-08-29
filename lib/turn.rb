@@ -53,7 +53,7 @@ def turn(board)
 
 #if index is valid
   if valid_move?(board, board_index) == true
-    move(board, board_index, character)
+    move(board, board_index)
   else
     turn(board)
   end
