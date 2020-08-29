@@ -54,8 +54,7 @@ def turn(board)
   if valid_move?(board, board_index) == true
     move(board, board_index)
   else
-
-  #
+    until turn(board)
 
   until valid_move?(board, board_index) == true
     move(board, board_index, current_player = "X")
