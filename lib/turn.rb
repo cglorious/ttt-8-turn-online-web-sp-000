@@ -52,6 +52,6 @@ def turn(board)
 #if index is valid, make move
 
 def valid_index()
-  until valid_move?(board, board_index) == true do
+  if valid_move?(board, board_index) == true do
     turn(board)
 end
