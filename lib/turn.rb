@@ -51,10 +51,11 @@ def turn(board)
 #get input, convert to index
   board_index = input_to_index(gets.strip)
 
-#if index is valid
-  if valid_move?(board, board_index) == true
-    move(board, board_index)
-  else
+#if index is valid, make move
+  until valid_move?(board, board_index) == true
     turn(board)
   end
+
+  move(board, board_index)
+
 end
