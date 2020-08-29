@@ -50,8 +50,6 @@ def turn(board)
   board_index = input_to_index(gets.strip)
 
 #if index is valid, make move
-
-def valid_index()
   if valid_move?(board, board_index) == true
     move(board, board_index)
   else
