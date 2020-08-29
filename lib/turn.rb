@@ -9,7 +9,6 @@ def display_board(board)
 end
 
 #valid_move?
-
 board = []
 index = 0
 move = index - 1
