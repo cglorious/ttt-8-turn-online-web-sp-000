@@ -50,6 +50,8 @@ def turn(board)
 
   board_index = input_to_index(gets.strip)
 
+  
+
   until valid_move?(board, board_index) == true
     move(board, board_index, current_player = "X")
     turn(board)
