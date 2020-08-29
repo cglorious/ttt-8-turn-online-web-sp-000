@@ -55,6 +55,6 @@ def valid_index()
   if valid_move?(board, board_index) == true
     move(board, board_index)
   else
-    #ask for input again
+    puts "Try again."
   end
 end
