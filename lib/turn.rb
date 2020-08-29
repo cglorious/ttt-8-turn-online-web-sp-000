@@ -51,6 +51,11 @@ def turn(board)
   board_index = input_to_index(gets.strip)
   puts board_index
 
+  if valid_move?(board, board_index) == true
+    # board_index between(0,8) && valid_move
+  # make move
+  else
+
   #
 
   until valid_move?(board, board_index) == true
