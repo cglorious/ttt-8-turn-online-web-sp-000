@@ -1,3 +1,5 @@
+#display_board
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -6,11 +8,17 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#valid_move?
+
 board = []
 index = 0
 move = index - 1
 
 def valid_move?(board, move)
+  board = []
+  index = 0
+  move = index - 1
+
   if position_taken?(board, move) == true
     false
   else position_taken?(board, move) == false
