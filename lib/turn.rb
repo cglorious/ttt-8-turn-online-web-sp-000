@@ -10,10 +10,6 @@ end
 
 #valid_move?
 
-board = []
-index = 0
-move = index - 1
-
 def valid_move?(board, move)
   board = []
   index = 0
