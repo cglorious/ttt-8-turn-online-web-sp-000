@@ -56,4 +56,5 @@ def valid_index()
 
   else
     #ask for input again
+  end
 end
