@@ -46,9 +46,9 @@ end
 
 #turn
 def turn(board)
-    puts "Please enter 1-9:"
-    board_index = input_to_index(gets.strip)
-    board index
+  puts "Please enter 1-9:"
+  board_index = input_to_index(gets.strip)
+  board index
 
 #if index is valid, make move
 
