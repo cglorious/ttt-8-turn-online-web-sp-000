@@ -46,12 +46,17 @@ end
 
 #turn
 def turn(board)
+  def input
     puts "Please enter 1-9:"
     board_index = input_to_index(gets.strip)
+    board index
+  end
 
 #if index is valid, make move
 
 def valid_index()
   if valid_move?(board, board_index) == true do
-    turn(board)
+
+  else
+    #ask for input again
 end
