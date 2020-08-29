@@ -52,6 +52,8 @@ def turn(board)
     board index
   end
 
+  input
+
 #if index is valid, make move
 
 def valid_index()
