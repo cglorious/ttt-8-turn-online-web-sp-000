@@ -45,14 +45,23 @@ def move(board, player_index, character = "X")
 end
 
 #turn
-def turn(board)
+
+def input
   puts "Please enter 1-9:"
   board_index = input_to_index(gets.strip)
+end
+
+def turn(board)
+
 
 #if index is valid, make move
   if valid_move?(board, board_index) == true
     move(board, board_index)
   else
+#ask for input again until you get a valid input
+    until valid_move?(board, board_index) == true
+      puts "Please enter 1-9:"
+      board_index = input_to_index(gets.strip)
     puts "Try another input."
   end
 end
