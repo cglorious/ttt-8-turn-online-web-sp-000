@@ -9,7 +9,6 @@ def display_board(board)
 end
 
 #valid_move?
-#do variables need to be defined inside of valid_move?
 
 board = []
 index = 0
