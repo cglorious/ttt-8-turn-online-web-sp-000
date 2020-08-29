@@ -58,4 +58,6 @@ def turn(board)
       board_index = input_to_index(gets.strip)
     end
   end
+
+  display_board
 end
