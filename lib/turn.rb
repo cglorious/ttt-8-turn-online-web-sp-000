@@ -53,8 +53,6 @@ def turn(board)
 
   if valid_move?(board, board_index) == true
     move(board, board_index)
-    # board_index between(0,8) && valid_move
-  # make move
   else
 
   #
