@@ -52,7 +52,7 @@ def turn(board)
   board_index = input_to_index(gets.strip)
 
 #if index is valid, make move
-  until valid_move?(board, board_index) == true
+  until valid_move?(board, board_index) == true do
     turn(board)
   end
 
